@@ -241,3 +241,7 @@
 
 .gssb_c .gssb_e .gsc-completion-container .gsc-completion-selected {
   background: #eee !important; }
+
+span.gs-fileFormat {
+margin-left: 15px;
+}
