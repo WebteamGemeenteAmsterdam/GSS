@@ -1,0 +1,243 @@
+.gss-search-box-header {
+  /* Voor de zoekbox in de header op elke pagina, behalve de zoekpagina */ }
+  .gss-search-box-header .gsc-input-box {
+    border: 0;
+    background: inherit !important; }
+    .gss-search-box-header .gsc-input-box.gsc-input-box-hover input.gsc-input, .gss-search-box-header .gsc-input-box.gsc-input-box-focus input.gsc-input {
+      color: #fff; }
+  .gss-search-box-header td.gsc-input {
+    padding: 0 !important;
+    vertical-align: top; }
+  .gss-search-box-header .gsib_a {
+    padding: 0 !important; }
+  .gss-search-box-header input.gsc-input {
+    border: 0 none;
+    background: none !important;
+    margin: 2px !important;
+    padding: 4px 0 4px 15px !important;
+    width: 173px !important;
+    height: 18px !important;
+    color: #000;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: verdana,sans-serif; }
+  .gss-search-box-header .gsc-search-button {
+    border: 0;
+    cursor: pointer; }
+    .gss-search-box-header .gsc-search-button input.gsc-search-button {
+      border: 0;
+      text-indent: -9999px;
+      direction: ltr;
+      border: 0 none;
+      background-color: transparent;
+      margin: 6px 5px 0 0;
+      /* background: url(/views/core/images/sprites/sprite_buttons.png) no-repeat 3px 0; */
+      background: url(https://www.amsterdam.nl/views/core/images/sprites/sprite_buttons.png) no-repeat 3px 0;
+      width: 27px;
+      height: 21px;
+      font-size: 0;
+      line-height: 0;
+      display: block; }
+      @media screen and (max-width: 519px) {
+        .gss-search-box-header .gsc-search-button input.gsc-search-button {
+          background: url(https://www.amsterdam.nl/views/core/images/sprites/sprite_buttons.png) no-repeat 50px 0; } }
+  .gss-search-box-header .gsc-clear-button, .gss-search-box-header .gsib_b {
+    display: none; }
+  .gss-search-box-header tr {
+    background: transparent !important; }
+  .gss-search-box-header .gsc-input input.gsc-input {
+    background: transparent !important; }
+
+.gss-search-box-page {
+  /* Voor de zoekbox op de veelgevraagd pagina */
+  /* Het zoekveld / tekstbox */ }
+  .gss-search-box-page table tr {
+    border: 0;
+    background-color: #fff !important; }
+  .gss-search-box-page table td {
+    border: 0; }
+  .gss-search-box-page table.gsc-search-box {
+    vertical-align: initial !important; }
+    .gss-search-box-page table.gsc-search-box .gsib_a {
+      padding-left: 0 !important; }
+  .gss-search-box-page .gsc-input-box {
+    border: 0 !important;
+    background: initial !important;
+    height: 0 !important; }
+  .gss-search-box-page td.gsc-input {
+    vertical-align: initial !important;
+    padding-right: 24px !important; }
+  .gss-search-box-page input.gsc-input {
+    border: inset !important;
+    border-color: initial !important;
+    border-image: initial !important;
+    border-width: 2px !important;
+    float: left;
+    font-family: 'Avenir LT W01 85 Heavy','AvenirHeavy',arial,sans-serif;
+    font-size: 1.5em;
+    padding-top: 15px !important;
+    padding-bottom: 13px !important;
+    /* Maak dit relatief, obv standaard styling (mobiel/tablet)  */
+    padding-left: 1.42857143% !important;
+    padding-right: 1.42857143% !important;
+    width: 85.71428571%; }
+  .gss-search-box-page .gsib_b {
+    /* Verwijder annuleer kruisje */
+    display: none; }
+  .gss-search-box-page input.gsc-search-button {
+    cursor: pointer;
+    padding: 5px 0;
+    margin-left: 10px;
+    background-color: #ec0000;
+    /*background-image: url(/views/core/images/pointers/big-go-white.png);*/
+    background-image: url(https://www.amsterdam.nl/views/core/images/pointers/big-go-white.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 0 none transparent;
+    text-indent: -9999px;
+    width: 52px; }
+    .gss-search-box-page input.gsc-search-button:hover {
+      background-color: #ccc;
+      /*background-image: url(/views/core/images/pointers/big-go-grey.png);*/
+      background-image: url(https://www.amsterdam.nl/views/core/images/pointers/big-go-grey.png); }
+
+.gss-results {
+  /* Voor elementen op de zoekpagina */ }
+  .gss-results .gss-search-box-container {
+    /* Het zoekveld / tekstbox */ }
+
+    table.gsc-search-box {
+      margin-bottom: 20px !important;
+    }
+
+    .gss-results .gss-search-box-container table tr {
+      border: 0;
+      background-color: #fff !important; }
+    .gss-results .gss-search-box-container table td {
+      border: 0; }
+    .gss-results .gss-search-box-container table.gsc-search-box {
+      vertical-align: initial !important; }
+      .gss-results .gss-search-box-container table.gsc-search-box .gsib_a {
+        padding-left: 0 !important; }
+    .gss-results .gss-search-box-container .gsc-input-box {
+      border: 0 !important;
+      background: initial !important;
+      height: 0 !important; }
+    .gss-results .gss-search-box-container td.gsc-input {
+      vertical-align: baseline !important;
+      padding-right: 24px !important; }
+    .gss-results .gss-search-box-container input.gsc-input {
+      border: inset !important;
+      border-color: initial !important;
+      border-image: initial !important;
+      border-width: 2px !important;
+      float: left;
+      font-family: 'Avenir LT W01 85 Heavy','AvenirHeavy',arial,sans-serif;
+      font-size: 1.5em;
+      padding-top: 15px !important;
+      padding-bottom: 13px !important;
+      /* Maak dit relatief, obv standaard styling (mobiel/tablet)  */
+      padding-left: 1.42857143% !important;
+      padding-right: 1.42857143% !important;
+      width: 85.71428571%; }
+    .gss-results .gss-search-box-container .gsib_b {
+      /* Verwijder annuleer kruisje */
+      display: none; }
+    .gss-results .gss-search-box-container input.gsc-search-button {
+      cursor: pointer;
+      padding: 5px 0;
+      margin-left: 0px;
+      background-color: #ec0000;
+      /*background-image: url(/views/core/images/pointers/big-go-white.png);*/
+      background-image: url(https://www.amsterdam.nl/views/core/images/pointers/big-go-white.png);
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      border: 0 none transparent;
+      text-indent: -9999px;
+      width: 52px;
+      height: 45px;
+      display: block; }
+      .gss-results .gss-search-box-container input.gsc-search-button:hover {
+        background-color: #ccc;
+        /*background-image: url(/views/core/images/pointers/big-go-grey.png);*/
+        background-image: url(https://www.amsterdam.nl/views/core/images/pointers/big-go-grey.png); }
+  .gss-results .gss-search-results {
+    /* De zoekresultaten */ }
+    .gss-results .gss-search-results .gsc-control-cse {
+      padding: 0; }
+    .gss-results .gss-search-results .gs-spelling {
+      padding-left: 0; }
+      .gss-results .gss-search-results .gs-spelling a {
+        color: inherit;
+        font-weight: bold;
+        text-decoration: none; }
+        .gss-results .gss-search-results .gs-spelling a:hover {
+          color: #ec0000;
+          text-decoration: underline; }
+    .gss-results .gss-search-results .gsc-above-wrapper-area {
+      display: none; }
+    .gss-results .gss-search-results .gsc-results .gsc-promotion {
+      /* Promotions */
+      background-color: #fff !important;
+      border: 0; }
+      .gss-results .gss-search-results .gsc-results .gsc-promotion tr {
+        background-color: #fff !important; }
+      .gss-results .gss-search-results .gsc-results .gsc-promotion .gs-visibleUrl {
+        display: none; }
+    .gss-results .gss-search-results .gsc-results a.gs-title {
+      /* Zoekresultaten */
+      background: url(https://www.amsterdam.nl/views/core/images/sprites/sprite_bullets_small.png) no-repeat 0 -999px !important;
+      /*background: url(/views/core/images/sprites/sprite_bullets_small.png) no-repeat 0 -999px !important; */
+      font-family: 'Avenir LT Std 65 Medium',AvenirMedium,arial,sans-serif !important;
+      font-size: inherit;
+      font-weight: bold !important;
+      margin: 5px 0 0 0 !important;
+      padding-left: 15px !important;
+      text-decoration: none; }
+      .gss-results .gss-search-results .gsc-results a.gs-title:hover {
+        background: url(https://www.amsterdam.nl/views/core/images/sprites/sprite_bullets_small.png) no-repeat 0 -3999px !important;
+        /*background: url(/views/core/images/sprites/sprite_bullets_small.png) no-repeat 0 -3999px !important; */
+        color: #ec0000;
+        text-decoration: underline; }
+    .gss-results .gss-search-results .gsc-results .gsc-url-top {
+      display: none; }
+    .gss-results .gss-search-results .gsc-results .gsc-table-result .gs-snippet {
+      margin-left: 15px; }
+    .gss-results .gss-search-results .gsc-results .gsc-table-result tr {
+      background: #fff; }
+    .gss-results .gss-search-results .gsc-results .gs-richsnippet-box {
+      display: none !important; }
+    .gss-results .gss-search-results .gsc-results .gsc-cursor-box {
+      /* Paginering */ }
+      .gss-results .gss-search-results .gsc-results .gsc-cursor-box .gsc-cursor-page {
+        margin: 0 1em 0 0; }
+        .gss-results .gss-search-results .gsc-results .gsc-cursor-box .gsc-cursor-page.gsc-cursor-current-page, .gss-results .gss-search-results .gsc-results .gsc-cursor-box .gsc-cursor-page:hover {
+          color: #ec0000; }
+    .gss-results .gss-search-results .gsc-results .gsc-result {
+      /* Overrides om standaard GCSE styling uit te schakelen */
+      border: 0 !important; }
+    .gss-results .gss-search-results .gsc-results .gsc-control-cse .gs-spelling, .gss-results .gss-search-results .gsc-results .gsc-control-cse .gs-result .gs-title, .gss-results .gss-search-results .gsc-results .gsc-control-cse .gs-result .gs-title * {
+      /* Overrides om standaard GCSE styling uit te schakelen */
+      font-size: inherit; }
+    .gss-results .gss-search-results .gsc-results .gsc-table-result, .gss-results .gss-search-results .gsc-results .gsc-thumbnail-inside, .gss-results .gss-search-results .gsc-results .gsc-url-top {
+      /* Overrides om standaard GCSE styling uit te schakelen */
+      padding: 0; }
+    .gss-results .gss-search-results .gsc-results .gs-result .gs-title, .gss-results .gss-search-results .gsc-results .gs-result .gs-title * {
+      /* Overrides om standaard GCSE styling uit te schakelen */
+      text-decoration: none; }
+    .gss-results .gss-search-results .gs-no-results-result .gs-snippet {
+      background-color: #fff;
+      border: none; }
+
+.gsc-completion-container {
+  /* De autocomplete box */ }
+  .gsc-completion-container tbody tr:nth-child(odd), .gsc-completion-container table tbody tr:nth-child(even) {
+    background-color: initial; }
+  .gsc-completion-container tbody tr:nth-child(even):last-child td, .gsc-completion-container table tbody tr:nth-child(even):last-child th {
+    border: 0; }
+  .gsc-completion-container tr {
+    cursor: pointer;
+    background-color: initial; }
+
+.gssb_c .gssb_e .gsc-completion-container .gsc-completion-selected {
+  background: #eee !important; }
