@@ -234,15 +234,22 @@
 .gsc-completion-container {
   /* De autocomplete box */ }
   .gsc-completion-container tbody tr:nth-child(odd), .gsc-completion-container table tbody tr:nth-child(even) {
-    background-color: #fff; }
+    background-color: transparent; }
   .gsc-completion-container tbody tr:nth-child(even):last-child td, .gsc-completion-container table tbody tr:nth-child(even):last-child th {
     border: 0; }
   .gsc-completion-container tr {
     cursor: pointer;
-    background-color: #fff; }
+    background-color: transparent; }
 
 .gssb_c .gssb_e .gsc-completion-container .gsc-completion-selected {
   background: #eee !important; }
+
+.gsc-completion-selected  {
+  background: #eee !important; }
+
+
+
+
 
 span.gs-fileFormat {
 margin-left: 15px;
