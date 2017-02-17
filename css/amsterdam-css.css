@@ -156,7 +156,9 @@
       text-indent: -9999px;
       width: 52px;
       height: 45px;
-      display: block; }
+      display: block;
+      border-radius: 0px;      
+      }
       .gss-results .gss-search-box-container input.gsc-search-button:hover {
         background-color: #ccc;
         /*background-image: url(/views/core/images/pointers/big-go-grey.png);*/
