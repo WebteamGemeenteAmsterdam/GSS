@@ -71,7 +71,7 @@
     border: inset !important;
     border-color: initial !important;
     border-image: initial !important;
-    border-width: 2px !important;
+    border-width: 1px !important;
     float: left;
     font-family: 'Avenir LT W01 85 Heavy','AvenirHeavy',arial,sans-serif;
     font-size: 1.5em;
@@ -95,7 +95,10 @@
     background-position: 50% 50%;
     border: 0 none transparent;
     text-indent: -9999px;
-    width: 52px; }
+    width: 52px;
+    display: block;
+    height: 45px;
+    border-radius: 0px; }
     .gss-search-box-page input.gsc-search-button:hover {
       background-color: #ccc;
       /*background-image: url(/views/core/images/pointers/big-go-grey.png);*/
@@ -248,14 +251,28 @@
   background: #eee !important; }
 
 
-
-
-
 span.gs-fileFormat {
 margin-left: 15px;
 }
 
 span.gs-fileFormatType {
 color: #666;
+}
+
+.gss-results .gss-search-box-container input.gsc-input:-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: "Avenir LT W01 85 Heavy","AvenirHeavy",arial,sans-serif;
+  font-size: 1.5em;
+}
+.gss-results .gss-search-box-container input.gsc-input::-moz-placeholder { /* Firefox 19+ */
+  font-family: "Avenir LT W01 85 Heavy","AvenirHeavy",arial,sans-serif;
+  font-size: 1.5em;
+}
+.gss-results .gss-search-box-container input.gsc-input:-ms-input-placeholder { /* IE 10+ */
+  font-family: "Avenir LT W01 85 Heavy","AvenirHeavy",arial,sans-serif;
+  font-size: 1.5em;
+}
+.gss-results .gss-search-box-container input.gsc-input:-moz-placeholder { /* Firefox 18- */
+  font-family: "Avenir LT W01 85 Heavy","AvenirHeavy",arial,sans-serif;
+  font-size: 1.5em;
 }
 
