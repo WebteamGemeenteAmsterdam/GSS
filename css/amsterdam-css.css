@@ -97,7 +97,7 @@
     text-indent: -9999px;
     width: 52px;
     display: block;
-    height: 4px;
+    height: 40px;
     border-radius: 0px; }
     .gss-search-box-page input.gsc-search-button:hover {
       background-color: #ccc;
@@ -277,5 +277,9 @@ color: #666;
 }
 
 table.gsc-search-box td {
+  vertical-align: none !important;
+}
+
+.gsib_a {
   vertical-align: none !important;
 }
