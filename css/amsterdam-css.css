@@ -9,6 +9,7 @@
     padding: 0 !important;
     vertical-align: top; }
   .gss-search-box-header .gsib_a {
+    vertical-align: none !important;
     padding: 0 !important; }
   .gss-search-box-header input.gsc-input {
     border: 0 none;
@@ -59,6 +60,7 @@
   .gss-search-box-page table.gsc-search-box {
     vertical-align: initial !important; }
     .gss-search-box-page table.gsc-search-box .gsib_a {
+      vertical-align: none !important;
       padding-left: 0 !important; }
   .gss-search-box-page .gsc-input-box {
     border: 0 !important;
@@ -121,6 +123,7 @@
     .gss-results .gss-search-box-container table.gsc-search-box {
       vertical-align: initial !important; }
       .gss-results .gss-search-box-container table.gsc-search-box .gsib_a {
+        vertical-align: none !important;
         padding-left: 0 !important; }
     .gss-results .gss-search-box-container .gsc-input-box {
       border: 0 !important;
