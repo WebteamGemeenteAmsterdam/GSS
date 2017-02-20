@@ -97,7 +97,7 @@
     text-indent: -9999px;
     width: 52px;
     display: block;
-    height: 45px;
+    height: 40px;
     border-radius: 0px; }
     .gss-search-box-page input.gsc-search-button:hover {
       background-color: #ccc;
@@ -133,7 +133,7 @@
       border: inset !important;
       border-color: initial !important;
       border-image: initial !important;
-      border-width: 2px !important;
+      border-width: 1px !important;
       float: left;
       font-family: 'Avenir LT W01 85 Heavy','AvenirHeavy',arial,sans-serif;
       font-size: 1.5em;
@@ -158,7 +158,7 @@
       border: 0 none transparent;
       text-indent: -9999px;
       width: 52px;
-      height: 45px;
+      height: 40px;
       display: block;
       border-radius: 0px;      
       }
