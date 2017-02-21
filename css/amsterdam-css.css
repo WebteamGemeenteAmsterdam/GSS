@@ -282,11 +282,11 @@ color: #666;
 }
 
 table.gsc-search-box td {
-  vertical-align: none !important;
+  vertical-align: top !important;
 }
 
 .gsib_a {
-  vertical-align: none !important;
+  vertical-align: top !important;
 }
 
 .gsc-branding {
