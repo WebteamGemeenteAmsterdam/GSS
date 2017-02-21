@@ -163,7 +163,9 @@
       width: 52px;
       height: 40px;
       display: block;
-      border-radius: 0px;      
+      border-radius: 0px;
+      -webkit-text-fill-color: transparent;
+      color: transparent;      
       }
       .gss-results .gss-search-box-container input.gsc-search-button:hover {
         background-color: #ccc;
