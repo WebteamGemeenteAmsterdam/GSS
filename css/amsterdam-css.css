@@ -288,3 +288,7 @@ table.gsc-search-box td {
 .gsib_a {
   vertical-align: none !important;
 }
+
+.gsc-branding {
+  display: none !important;
+}
