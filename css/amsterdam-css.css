@@ -300,3 +300,7 @@ table.gsc-search-box td {
 .gsc-completion-snippet {
     font-size: 14px;
 }
+
+.gs-promotion-text-cell .gs-visibleUrl, .gs-promotion-text-cell .gs-snippet {
+    margin-left: 15px;
+}
