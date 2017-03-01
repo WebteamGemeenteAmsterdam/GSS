@@ -163,9 +163,7 @@
       width: 52px;
       height: 40px;
       display: block;
-      border-radius: 0px;
-      -webkit-text-fill-color: transparent;
-      color: transparent;      
+      border-radius: 0px;      
       }
       .gss-results .gss-search-box-container input.gsc-search-button:hover {
         background-color: #ccc;
@@ -264,22 +262,20 @@ span.gs-fileFormatType {
 color: #666;
 }
 
-.gss-results .gss-search-box-container input.gsc-input:-webkit-input-placeholder { /* Chrome/Opera/Safari */
+.gsc-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   font-family: "Avenir LT W01 85 Heavy","AvenirHeavy",arial,sans-serif;
   font-size: 1.5em;
 }
-.gss-results .gss-search-box-container input.gsc-input::-moz-placeholder { /* Firefox 19+ */
+.gsc-input::-moz-placeholder { /* Firefox 19+ */
   font-family: "Avenir LT W01 85 Heavy","AvenirHeavy",arial,sans-serif;
   font-size: 1.5em;
 }
-.gss-results .gss-search-box-container input.gsc-input:-ms-input-placeholder { /* IE 10+ */
+
+.gsc-input::-ms-input-placeholder { /* IE 10+ */
   font-family: "Avenir LT W01 85 Heavy","AvenirHeavy",arial,sans-serif;
   font-size: 1.5em;
 }
-.gss-results .gss-search-box-container input.gsc-input:-moz-placeholder { /* Firefox 18- */
-  font-family: "Avenir LT W01 85 Heavy","AvenirHeavy",arial,sans-serif;
-  font-size: 1.5em;
-}
+
 
 table.gsc-search-box td {
   vertical-align: none !important;
@@ -287,20 +283,4 @@ table.gsc-search-box td {
 
 .gsib_a {
   vertical-align: none !important;
-}
-
-.gsc-branding {
-  display: none !important;
-}
-
-.gsc-completion-title {
-  font-weight: bold;
-}
-
-.gsc-completion-snippet {
-    font-size: 14px;
-}
-
-.gs-promotion-text-cell .gs-visibleUrl, .gs-promotion-text-cell .gs-snippet {
-    margin-left: 15px;
 }
