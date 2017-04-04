@@ -67,4 +67,15 @@ window.__gcse = {
   gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(gcse, s);
+
+  var scripts = document.getElementsByTagName('script');
+  var i = scripts.length;
+  while (i--) {
+    if (scripts[i].src === "https://cse.google.com/adsense/search/async-ads.js") {
+      scripts[i].src = ""; // Your source here
+      console.log("gedaan");
+      break;
+    }
+  }
+  
 })();
