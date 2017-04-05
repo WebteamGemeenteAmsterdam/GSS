@@ -11,6 +11,10 @@
   text-decoration: none;
 }
 
+.gss-snippet {
+  font-size: 13px;
+}
+
 .gss-breadcrumb {
   color: #787878;
   margin-bottom: 10px;
