@@ -73,12 +73,14 @@ var gssStart = getUrlParameter('start')  || '1';
         }
           
           //begin van het pager gedeelte
+          $( ".gss-search-results" ).append('<div class="gss-pagers"></div>');  
+            
           var pagerGSS = "";
 
           //vorige pagina
           if ( typeof response.queries.previousPage !== 'undefined') {
                var VorigeUrl = location.protocol + '//' + location.host + location.pathname + '?Zoe=' + encodeURIComponent(gssQuery) + '&start=' + encodeURIComponent(response.queries.previousPage[0].startIndex);
-               $( ".gss-search-results" ).append('<div class="vorigeknop"><a class="volgendelink" href="'+ VorigeUrl +'">Vorige</a></div>');
+               $( ".gss-pagers" ).append('<div class="vorigeknop"><a class="volgendelink" href="'+ VorigeUrl +'">Vorige</a></div>');
           }
 
 
@@ -89,7 +91,7 @@ var gssStart = getUrlParameter('start')  || '1';
               var VolgendeUrl = location.protocol + '//' + location.host + location.pathname + '?Zoe=' + encodeURIComponent(gssQuery) + '&start=' + encodeURIComponent(response.queries.nextPage[0].startIndex);
              console.log('VolgendeUrl='+VolgendeUrl);
 
-              $( ".gss-search-results" ).append('<div class="volgendeknop"><a class="volgendelink" href="'+ VolgendeUrl +'">Volgende</a></div>');
+              $( ".gss-pagers" ).append('<div class="volgendeknop"><a class="volgendelink" href="'+ VolgendeUrl +'">Volgende</a></div>');
 
             }
 
