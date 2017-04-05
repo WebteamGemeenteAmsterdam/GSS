@@ -55,3 +55,17 @@
   width: 86%;
 }
 
+#bigsearchbutton {
+    float: left;
+    width: 9%;
+    height: 52px;
+    padding: 5px 0;
+    margin-left: 10px;
+    background-color: #ff0000;
+    background-image: url(https://www.amsterdam.nl/views/core/images/pointers/big-go-white.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 0 none transparent;
+    text-indent: -9999px;
+    direction: ltr;
+}
