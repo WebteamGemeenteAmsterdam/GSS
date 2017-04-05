@@ -27,6 +27,10 @@
   font-size: 10px;
 }
 
+.gss-pagers {
+  margin-top: 20px;
+}
+
 .volgendeknop {
   font-family: 'Avenir LT W01 85 Heavy',arial,sans-serif;
   font-weight: normal;
