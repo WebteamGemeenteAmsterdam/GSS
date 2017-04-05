@@ -4,7 +4,7 @@
 }
 
 .gss-title {
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .gss-title-link {
@@ -25,4 +25,21 @@
   color: #787878;
   margin-bottom: 10px;
   font-size: 10px;
+}
+
+.volgendeknop {
+  font-family: 'Avenir LT W01 85 Heavy',arial,sans-serif;
+  font-weight: normal;
+  font-size: 1.273em;
+  border: 0 none;
+  background-color: transparent;
+  background-image: url(/views/core/images/sprites/sprite_formbuttons.png);
+  background-repeat: no-repeat;
+  background-position: right 0;
+  height: 28px;
+  line-height: 28px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 37px;
+  text-align: right;
 }
