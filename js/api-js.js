@@ -23,7 +23,7 @@
 var gssQuery = getUrlParameter('Zoe') || '';
 
 //zoekform tonen
-$(".gss-results").prepend('<form id="searchform" method="get" action="http://intranet.amsterdam.nl/testsitewebteam/zoeken/"><div><input type="text" id="searchkeywordz" name="Zoe" class="q" value="" size="32" maxlength="256" autocomplete="off"></div><div><input id="bigsearchbutton" type="submit" class="zoeken" name="btnG" value="Zoeken"></div></form>');
+$(".gss-search-box-container").prepend('<form id="searchform" method="get" action="http://intranet.amsterdam.nl/testsitewebteam/zoeken/"><div><input type="text" id="searchkeywordz" name="Zoe" class="q" value="" size="32" maxlength="256" autocomplete="off"></div><div><input id="bigsearchbutton" type="submit" class="zoeken" name="btnG" value="Zoeken"></div></form>');
 
 $("#searchkeywordz").val(gssQuery);
 
