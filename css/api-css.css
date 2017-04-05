@@ -1,6 +1,11 @@
 .gss-search-result-list {
   list-style-type: none;
 }
+
+.gss-title {
+  margin-top: 5px;
+}
+
 .gss-title-link {
   background: url(https://www.amsterdam.nl/views/core/images/sprites/sprite_bullets_small.png) no-repeat 0 -999px !important;
   font-family: 'Avenir LT Std 65 Medium',AvenirMedium,arial,sans-serif !important;
