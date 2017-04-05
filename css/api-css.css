@@ -44,6 +44,22 @@
   text-align: right;
 }
 
+.vorigeknop {
+    font-family: 'Avenir LT W01 85 Heavy',arial,sans-serif;
+    font-weight: normal;
+    font-size: 1.273em;
+    border: 0 none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: right 0;
+    height: 28px;
+    line-height: 28px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 37px;
+    text-align: right;
+}
+  
 #searchkeywordz {
   float: left;
   font-family: 'Avenir LT W01 85 Heavy','AvenirHeavy',arial,sans-serif;
