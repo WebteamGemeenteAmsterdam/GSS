@@ -75,13 +75,13 @@
   padding-bottom: 13px;
   padding-left: 1%;
   padding-right: 1%;
-  width: 80%;
+  width: 70%;
   margin-bottom: 20px; 
 }
 
 #bigsearchbutton {
     float: left;
-    width: 9%;
+    width: 52px;
     height: 52px;
     padding: 5px 0;
     margin-left: 10px;
