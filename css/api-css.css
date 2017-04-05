@@ -1,0 +1,18 @@
+.gss-search-result-list {
+  list-style-type: none;
+}
+.gss-title-link {
+  background: url(https://www.amsterdam.nl/views/core/images/sprites/sprite_bullets_small.png) no-repeat 0 -999px !important;
+  font-family: 'Avenir LT Std 65 Medium',AvenirMedium,arial,sans-serif !important;
+  font-size: 16px;
+  font-weight: bold !important;
+  margin: 5px 0 0 0 !important;
+  padding-left: 15px !important;
+  text-decoration: none;
+}
+
+.gss-breadcrumb {
+  color: #787878;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
